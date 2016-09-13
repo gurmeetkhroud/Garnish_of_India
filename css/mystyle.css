@@ -5,3 +5,16 @@
     font-weight: 400;
     margin-top: -22%;
 }
+
+li{
+  word-spacing: 0px !important;
+  color: maroon !important;
+  float: left;
+  font-size: 20px;
+}
+
+#gs{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin-top: -3%;
+}
