@@ -18,3 +18,19 @@ li{
   font-size: 30px;
   margin-top: -3%;
 }
+
+#p1{
+  font-size: 15px;
+  float: left;
+}
+
+.clearfix{
+  margin-left: 8%;
+}
+
+#filter-list li {
+    font-family: cursive;
+    font-size: 39px;
+    text-decoration: underline;
+    margin-left: 0%;
+}
