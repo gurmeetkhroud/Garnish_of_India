@@ -23,6 +23,7 @@ li{
   font-family: 'Pacifico', cursive;
   font-size: 30px;
   margin-top: -3%;
+  color: white;
 }
 
 
@@ -42,7 +43,7 @@ li{
     margin-left: 20%;
 }
 .beer.background_content {
-    background: url('../images/menu-bg.jpg') no-repeat center center;
+    background: url('../images/bg.jpg') no-repeat center center;
     background-size: cover;
     background-position: 70% 50%;
 }
@@ -52,4 +53,10 @@ li{
     font-family: cursive;
     text-decoration: underline;
     font-size: 68px;
+}
+#en{
+  font-family:  cursive;
+  font-size: 54px;
+  text-decoration: underline;
+      margin-left: -23%;
 }
