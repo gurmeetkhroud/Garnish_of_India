@@ -19,6 +19,14 @@ li{
   margin-top: -3%;
 }
 
+#gs1{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin-top: -3%;
+  color: white;
+}
+
+
 #p1{
   font-size: 15px;
   float: left;
@@ -30,7 +38,25 @@ li{
 
 #filter-list li {
     font-family: cursive;
-    font-size: 39px;
+    font-size: 54px;
     text-decoration: underline;
-    margin-left: 0%;
+    margin-left: 20%;
+}
+.beer.background_content {
+    background: url('../images/bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: 70% 50%;
+}
+
+#bg {
+    margin-left: 3%;
+    font-family: cursive;
+    text-decoration: underline;
+    font-size: 68px;
+}
+#en{
+  font-family:  cursive;
+  font-size: 54px;
+  text-decoration: underline;
+      margin-left: -23%;
 }
