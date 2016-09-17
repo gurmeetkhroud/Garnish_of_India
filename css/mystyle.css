@@ -61,76 +61,52 @@ li{
       margin-left: -23%;
 }
 
-#d1{
-  color: maroon;
+button.mainMenuButton {
+    color: maroon;
     font-weight: bold;
     font-size: 100%;
-    border-radius: 12px;
+    border-radius: 7px;
     width: 51%;
     height: 21%;
-}
-#d2{
-  color: maroon;
-    font-weight: bold;
-    font-size: 100%;
-    border-radius: 12px;
-    width: 51%;
-    height: 21%;
-}
-#d3{
-  color: maroon;
-    font-weight: bold;
-    font-size: 100%;
-    border-radius: 12px;
-    width: 51%;
-    height: 21%;
-}
-#d4{
-  color: maroon;
-    font-weight: bold;
-    font-size: 100%;
-    border-radius: 12px;
-    width: 51%;
-    height: 21%;
-}
-#d5{
-  color: maroon;
-    font-weight: bold;
-    font-size: 100%;
-    border-radius: 12px;
-    width: 51%;
-    height: 21%;
-}
-#d6{
-  color: maroon;
-    font-weight: bold;
-    font-size: 100%;
-    border-radius: 12px;
-    width: 51%;
-    height: 21%;
-}
-#d7{
-  color: maroon;
-    font-weight: bold;
-    font-size: 100%;
-    border-radius: 12px;
-    width: 51%;
-    height: 21%;
-}
-#d8{
-  color: maroon;
-    font-weight: bold;
-    font-size: 100%;
-    border-radius: 12px;
-    width: 51%;
-    height: 21%;
+    margin-bottom: 1%;
 }
 
-#d9{
-  color: maroon;
+button#d12 {
+  position: relative;
+  left: 53%;
+  top: -32px;
+}
+
+div.tooltip {
+    position: absolute;
+    top: 25.5%;
+    left: -26%;
+    border-radius: 10px;
+    width: 50%;
+    border: 1px solid gray;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-family: "museo-sans", helvetica, sans-serif;
+    background-color: black;
+}
+table.innerTable tr {
+    vertical-align: top;
+}
+table.innerTable td {
+    padding: 1px;
+    padding-top: 5px;
+}
+div.tooltip p {
+    color: white;
+}
+p.title {
     font-weight: bold;
-    font-size: 100%;
-    border-radius: 12px;
-    width: 51%;
-    height: 21%;
+    font-size: 12px;
+}
+p.subtitle {
+    font-weight: normal;
+    font-size: 11px;
+    margin-top: 5px;
 }

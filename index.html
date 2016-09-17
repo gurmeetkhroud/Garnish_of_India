@@ -16,9 +16,35 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="favicon-1.ico" type="image/x-icon">
     <link href="css/mystyle.css" rel="stylesheet">
+    <script>
+      function onLoad() {
+        var myElements = document.querySelectorAll(".tooltip");
+        for (var i = 0; i < myElements.length; i++) {
+            myElements[i].style.display = 'none';
+        }
+      }
+
+      function showTip(attr) {
+        if(attr=='b1'){
+          document.getElementById("b1tooltip").style.display='block';
+        }
+        else if(attr=='b2'){
+          document.getElementById("b2tooltip").style.display='block';
+        }
+      }
+
+      function hideTip(attr) {
+        if(attr=='b1'){
+          document.getElementById("b1tooltip").style.display='none';
+        }
+        if(attr=='b2'){
+          document.getElementById("b2tooltip").style.display='none';
+        }
+      }
+    </script>
 </head>
 
-<body>
+<body onload="onLoad()">
 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -253,15 +279,70 @@
                 <h1>OUR MAINS MENU</h1>
                 <hr>
                 <!-- <div class="icon-beer fa-2x"></div> -->
-                <button type="button" id="d1" >Paneer(Cottage Cheese)</button>
-                  <button type="button" id="d2">Lentils & Vegetables</button>
-                    <button type="button" id="d3">Chicken(Murge Ki Baang)</button>
-                      <button type="button" id="d4">Lamb(Saalan)</button>
-                      <button type="button" id="d5">Goat/Mutton(Saalan)</button>
-                        <button type="button" id="d6">Beef(Saalan)</button>
-                          <button type="button" id="d7">SeaFood(Samundar Ki Gehrai Se)</button>
-                            <button type="button" id="d8">SeaFood(Samundar Ki Gehrai Se)</button>
-                              <button type="button" id="d9">SeaFood(Samundar Ki Gehrai Se)</button>
+                <button type="button" class="mainMenuButton" id="d1" onmouseover="showTip('b1')" onmouseout="hideTip('b1')" onclick="window.location.href=''" value="Paneer(Cottage Cheese)">Paneer(Cottage Cheese)</button>
+                <div class="tooltip" id="b1tooltip">
+                  <table class="innerTable">
+                    <tr>
+                      <td>
+                        <p class="title">Paneer Mussalam</p>
+                        <p class="subtitle">Paneer pieces cooked in red medium spicy gravy, with cashew nut paste in it garnished with grated paneer</p>
+                      </td>
+                      <td><p class="title">$14.50</p></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="title">Palak Paneer</p>
+                        <p class="subtitle">Cubes of fresh cottage cheese cooked with tomatoes in spinach puree & finished with fenugreek leaves</p>
+                      </td>
+                      <td><p class="title">$14.50</p></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="title">Paneer Mirch</p>
+                        <p class="subtitle">Dices of paneer & capsicum cooked together in medium spicy thick gravy</p>
+                      </td>
+                      <td><p class="title">$14.50</p></td>
+                    </tr>
+                  </table>
+                </div>
+
+                <button type="button" class="mainMenuButton" id="d2" onmouseover="showTip('b2')" onmouseout="hideTip('b2')">Lentils & Vegetables</button>
+                <div class="tooltip" id="b2tooltip">
+                  <table class="innerTable">
+                    <tr>
+                      <td>
+                        <p class="title">Tava Dhingri</p>
+                        <p class="subtitle">Fresh mushroom and sweet corn cooked in red gravy with more of chilly pepper and coriander</p>
+                      </td>
+                      <td><p class="title">$14.00</p></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="title">Kumbh Hara Dhaniya</p>
+                        <p class="subtitle">A fresh mushroom curry with flavor of coriander</p>
+                      </td>
+                      <td><p class="title">$14.00</p></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="title">Kadhai Chole</p>
+                        <p class="subtitle">Boiled chick peas tossed with diced onions, tomatoes & capsicum & cooked with special spice & served on a sizzler plate</p>
+                      </td>
+                      <td><p class="title">$14.50</p></td>
+                    </tr>
+                  </table>
+                </div>
+
+                <button type="button" class="mainMenuButton" id="d3">Chicken(Murge Ki Baang)</button>
+                <button type="button" class="mainMenuButton" id="d4">Lamb(Saalan)</button>
+                <button type="button" class="mainMenuButton" id="d5">Goat/Mutton(Saalan)</button>
+                <button type="button" class="mainMenuButton" id="d6">Beef(Saalan)</button>
+                <button type="button" class="mainMenuButton" id="d7">SeaFood(Samundar Ki Gehrai Se)</button>
+                <button type="button" class="mainMenuButton" id="d8">Rice(Basmati ki Khusboo)</button>
+                <button type="button" class="mainMenuButton" id="d9">Indian Bread(Gehu Ki Karamat)</button>
+                <button type="button" class="mainMenuButton" id="d10">Accompaniments(Saath-Saath)</button>
+                <button type="button" class="mainMenuButton" id="d11">Desserts(Mithai)</button>
+                <button type="button" class="mainMenuButton" id="d12">Download Full Mains Menu</button>
 
                 <!-- <p class="desc-text">Here at Restaurant we’re all about the love of beer. New and bold flavors enter our doors every week, and we can’t help but show them off. While we enjoy the classics, we’re always passionate about discovering something new, so stop by
                     and experience our craft at its best.</p> -->
@@ -387,14 +468,14 @@
                                     <div class="right-text">
                                         <h2>Lunch Hours</h2>
                                         <hr>
-                                        <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
-                                        <p>Saturday & Sunday: 8:00 AM - 9:00 AM</p>
+                                        <p>Monday to Friday:  12:00 PM - 2:30 PM</p>
+
 <hr>
 
-                                        <h2>Dinner Hours</h2>
+                                          <h2>Dinner Hours</h2>
                                           <hr>
-                                          <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
-                                          <p>Saturday & Sunday: 8:00 AM - 9:00 AM</p>
+                                          <p>Monday to Friday: 5:30 PM - 10:30 PM</p>
+                                          <p>Saturday & Sunday: 5:30 PM - 9:00 PM</p>
 
                                     </div>
                                 </div>
