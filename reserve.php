@@ -30,6 +30,7 @@ if(isset($_POST['submit'])){
     // You cannot use header and echo together. It's one or the other.
     }
 ?>
+<a href="index.html"><button>Home</button></a>
 </body>
 
 </html>
