@@ -17,43 +17,74 @@
     <link rel="icon" href="favicon-1.ico" type="image/x-icon">
     <link href="css/mystyle.css" rel="stylesheet">
     <script>
-      function onLoad() {
-        var myElements = document.querySelectorAll(".tooltip");
-        for (var i = 0; i < myElements.length; i++) {
-            myElements[i].style.display = 'none';
-        }
-      }
-
-      function showTip(attr) {
-        if(attr=='b1'){
-          document.getElementById("b1tooltip").style.display='block';
-        }
-        else if(attr=='b2'){
-          document.getElementById("b2tooltip").style.display='block';
-        }
-        else if(attr=='b3'){
-          document.getElementById("b3tooltip").style.display='block';
-        }
-        else if(attr=='b4'){
-          document.getElementById("b4tooltip").style.display='block';
+        function onLoad() {
+            var myElements = document.querySelectorAll(".tooltip");
+            for (var i = 0; i < myElements.length; i++) {
+                myElements[i].style.display = 'none';
+            }
         }
 
-      }
+        function showTip(attr) {
+            if (attr == 'b1') {
+                document.getElementById("b1tooltip").style.display = 'block';
+            } else if (attr == 'b2') {
+                document.getElementById("b2tooltip").style.display = 'block';
+            } else if (attr == 'b3') {
+                document.getElementById("b3tooltip").style.display = 'block';
+            } else if (attr == 'b4') {
+                document.getElementById("b4tooltip").style.display = 'block';
+            } else if (attr == 'b5') {
+                document.getElementById("b5tooltip").style.display = 'block';
+            } else if (attr == 'b6') {
+                document.getElementById("b6tooltip").style.display = 'block';
+            } else if (attr == 'b7') {
+                document.getElementById("b7tooltip").style.display = 'block';
+            } else if (attr == 'b8') {
+                document.getElementById("b8tooltip").style.display = 'block';
+            } else if (attr == 'b9') {
+                document.getElementById("b9tooltip").style.display = 'block';
+            } else if (attr == 'b10') {
+                document.getElementById("b10tooltip").style.display = 'block';
+            }
 
-      function hideTip(attr) {
-        if(attr=='b1'){
-          document.getElementById("b1tooltip").style.display='none';
+
+
+
+
         }
-        if(attr=='b2'){
-          document.getElementById("b2tooltip").style.display='none';
+
+        function hideTip(attr) {
+            if (attr == 'b1') {
+                document.getElementById("b1tooltip").style.display = 'none';
+            }
+            if (attr == 'b2') {
+                document.getElementById("b2tooltip").style.display = 'none';
+            }
+            if (attr == 'b3') {
+                document.getElementById("b3tooltip").style.display = 'none';
+            }
+            if (attr == 'b4') {
+                document.getElementById("b4tooltip").style.display = 'none';
+            }
+            if (attr == 'b5') {
+                document.getElementById("b5tooltip").style.display = 'none';
+            }
+            if (attr == 'b6') {
+                document.getElementById("b6tooltip").style.display = 'none';
+            }
+            if (attr == 'b7') {
+                document.getElementById("b7tooltip").style.display = 'none';
+            }
+            if (attr == 'b8') {
+                document.getElementById("b8tooltip").style.display = 'none';
+            }
+            if (attr == 'b9') {
+                document.getElementById("b9tooltip").style.display = 'none';
+            }
+            if (attr == 'b10') {
+                document.getElementById("b10tooltip").style.display = 'none';
+            }
         }
-        if(attr=='b3'){
-          document.getElementById("b3tooltip").style.display='none';
-        }
-        if(attr=='b4'){
-          document.getElementById("b4tooltip").style.display='none';
-        }
-      }
     </script>
 </head>
 
@@ -210,50 +241,9 @@
             <div class="container">
                 <div class="row">
                     <div class="w">
-                        <ul id="filter-list" class="clearfix">
-                            <li> Our Featured Dishes</li>
-                        </ul>
-                        <div class="col-md-6">
-                            <h2 id="gs">Garnish's Speciality</h2>
-                            <ul>
-                                <li>Coorg Fried Lamb Roast.......................................$16.50
-                                    <p id="p1">Tender lamb in thick gravy made with the spices special to the region of coorg.</p>
-                                </li>
-                                <li>Meen Vevichathu-Fish(Kerela)..............................$19.00</li>
-                                <p id="p1">Fish in red-hot chilli curry flavoured with kdampuli(Fish Tamarind).</p>
-                                <li>Nadan Prawn Curry(Kerela)..................................$19.00</li>
-                                <p id="p1">Prawns simmered in choice spices.The way it is cokked back home.</p>
-                                <li>Coorg Fired Crab Roast(Coorg)............................$24.00</li>
-                                <p id="p1">A preparation found only at (Garnish of India).</p>
-                                <li>Butter Chicken(Punjab).........................................$16.50</li>
-                                <p id="p1">Barbecued boneless chicken cooked in rich tomato base creamy gravy,finished with fenugreek.</p>
 
-                                <li>Chicken Jhalfrezi(Delhi)........................................$16.50</li>
-                                <p id="p1">Indian style chicken stir-fry, served on a sizzler plate.</p>
-                                <li>Murg Lazeez-Chicken(Kashmir)............................$16.00</li>
-                                <p id="p1">Barbecued chicken cooked in creamy cashew gravy.</p>
-                            </ul>
-                        </div>
 
-                        <div class="col-md-6">
 
-                            <h2 id="gs">Garnish's Classic Curries</h2>
-                            <ul>
-                                <li>Vindaloo(Goa)
-                                    <br>Chicken/Lamb/Goat/Beef..................................$16.50
-                                    <br>Fish/Prawn........................................................$19.00</li>
-                                <p id="p1"> A true Goan dish influenced by Portugese settlers. This authentic spicy Goan style dish of boneless meat cooked with garlic, malt vinegar,red-hot chillies & fresh herbs.</p>
-                                <li>Chettinad(Tamil Nadu)
-                                    <br> Chicken/Lamb/Goat/Beef...................................$16.50
-
-                                    <br>Fish/Prawn........................................................$19.00</li>
-                                <p id="p1">A spicy treat from the Chettiyar's family of Tamil Nadu. </p>
-
-                                <li> Sagwala(Chicken/Goat).....................................$16.50</li>
-                                <p id="p1">Punjabi's favourite dish made with puree of spinach, spices and touch of cream.</p>
-                            </ul>
-
-                        </div>
                     </div>
 
                 </div>
@@ -267,85 +257,8 @@
     </section>
 
 
-    <!-- <section id="beer" class="description_content">
-        <div class="beer background_content">
-            <div class="text-content container">
-                <div class="container">
-                    <div class="row">
-                        <div class="w">
-                            <ul id="filter-list" class="clearfix">
-                                <h2 id="en"> Entrées </h2>
-                            </ul>
-                            <div class="col-md-6 ">
-                                <h2 id="gs">Halka Fulka</h2>
-                                <ul>
-                                    <li>Aloo Papdi Chaat................................................$9.50
-                                        <p id="p1">Spiced potatoes & spinach fritters tossed together with sweet yoghurt,tamarind chutney & spiked with chat masala.</p>
-                                    </li>
 
-                                    <li>Veg Samosa..........................................................$9.50</li>
-                                    <p id="p1">Crispy & flaky pastry stuffed with a mixture of spiced potatoes & green peas.</p>
-
-
-                                    <li>Pyaz Bhaji............................................................$8.00</li>
-                                    <p id="p1">Crispy fried onion fritters marinated in gram flour & chef's own herbs & spices.</p>
-
-                                    <li>Hariyali Kebab.......................................................$8.00</li>
-                                    <p id="p1">A veggie pattie consists of a mixture of spinach,cottage cheese & potatoes.</p>
-
-                                    <li>Veg Bonda.............................................................$9.50</li>
-                                    <p id="p1">Deep fried spiced potato dumpling seasoned with mustard seeds,curry leaves & chickpea flour.</p>
-
-                                    <li>Seekh Kebab.........................................................$9.50</li>
-                                    <p id="p1">Lightly-herbed skewered pieces of lamb mince cooked in Tandoor.</p>
-
-                                    <li>Malai Kebab...........................................................$9.50</li>
-                                    <p id="p1">Cardamon & mace flavoured chicken kebab marinated in cream.</p>
-
-                                    <li>Murgh Tikka Tandoori.............................................$9.50</li>
-                                    <p id="p1">Succulent morsels of marinated boneless chicken roasted in tandoor.</p>
-
-                                </ul>
-                            </div>
-
-                            <div class="col-md-6">
-
-                                <h2 id="gs">Halka Fulka</h2>
-
-                                <ul>
-                                    <li>Tandoori Lamb Cutlets.......................................$12.00
-                                    </li>
-                                    <p id="p1"> A special treat of succulent pieces of lamb marinated overnight in mixture of yoghurt,ginger ,garlic and garam masala.</p>
-                                    <li>Fish Koliwada.....................................................$13.00</li>
-                                    <p id="p1">Delicious fish morsels marinated in special recipe of koliwada Mumbai. </p>
-
-                                    <li> Prawns Koliwada(Mumbai).................................$13.0</li>
-                                    <p id="p1">Prawns spicy fried with a special recipe of koliwada Mumbai.</p>
-
-                                    <li> Entrée platter for two(Vegetarian).......................$17.50</li>
-                                    <p id="p1">An assortment of samosa,pyaz bhaji,bonda & hariyali kebab.</p>
-
-
-                                    <li> Entrée platter for two(Non-Vegetarian)................$20.50</li>
-                                    <p id="p1">An assortment of fish,chicken,lamb & beef kebabs.</p>
-
-                                </ul>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </div>
-      </section> -->
-
-<section id="mains" class="description_content">
+    <section id="mains" class="description_content">
         <div class="text-content container">
 
             <div class="col-md-5">
@@ -355,215 +268,633 @@
             </div>
             <br>
             <div class="col-md-6 col-md-offset-1">
-                <h1>OUR MAINS MENU</h1>
+                <h1 id="main1">OUR MAINS MENU</h1>
                 <hr>
 
                 <button type="button" class="mainMenuButton" id="d1" onmouseover="showTip('b1')" onmouseout="hideTip('b1')" onclick="window.location.href=''" value="Paneer(Cottage Cheese)">Paneer(Cottage Cheese)</button>
                 <div class="tooltip" id="b1tooltip">
-                  <table class="innerTable">
-                    <tr>
-                      <td>
-                        <p class="title">Paneer Mussalam</p>
-                        <p class="subtitle">Paneer pieces cooked in red medium spicy gravy, with cashew nut paste in it garnished with grated paneer.</p>
-                      </td>
-                      <td><p class="title">$14.50</p></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="title">Palak Paneer</p>
-                        <p class="subtitle">Cubes of fresh cottage cheese cooked with tomatoes in spinach puree & finished with fenugreek leaves.</p>
-                      </td>
-                      <td><p class="title">$14.50</p></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="title">Paneer Mirch</p>
-                        <p class="subtitle">Dices of paneer & capsicum cooked together in medium spicy thick gravy.</p>
-                      </td>
-                      <td><p class="title">$14.50</p></td>
-                    </tr>
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Paneer Mussalam</p>
+                                <p class="subtitle">Paneer pieces cooked in red medium spicy gravy, with cashew nut paste in it garnished with grated paneer.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Palak Paneer</p>
+                                <p class="subtitle">Cubes of fresh cottage cheese cooked with tomatoes in spinach puree & finished with fenugreek leaves.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Paneer Mirch</p>
+                                <p class="subtitle">Dices of paneer & capsicum cooked together in medium spicy thick gravy.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.50</p>
+                            </td>
+                        </tr>
 
-                    <tr>
-                      <td>
-                        <p class="title">Paneer Butter Masala</p>
-                        <p class="subtitle">Dices of paneer cooked in tomato base sweetish gravy.</p>
-                      </td>
-                      <td><p class="title">$14.50</p></td>
-                    </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Paneer Butter Masala</p>
+                                <p class="subtitle">Dices of paneer cooked in tomato base sweetish gravy.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.50</p>
+                            </td>
+                        </tr>
 
-                    <tr>
-                      <td>
-                        <p class="title">Kumbh Makai Paneer</p>
-                        <p class="subtitle">Fresh mushroom,fresh corn and dices of paneer a medium spicy preparation.</p>
-                      </td>
-                      <td><p class="title">$14.50</p></td>
-                    </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Kumbh Makai Paneer</p>
+                                <p class="subtitle">Fresh mushroom,fresh corn and dices of paneer a medium spicy preparation.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.50</p>
+                            </td>
+                        </tr>
 
 
-                    <tr>
-                      <td>
-                        <p class="title">Malai Kofta</p>
-                        <p class="subtitle">Cottage cheese dumplings stuffed with raisins finished in a rich creamy tomato & cashew based gravy.</p>
-                      </td>
-                      <td><p class="title">$14.50</p></td>
-                    </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Malai Kofta</p>
+                                <p class="subtitle">Cottage cheese dumplings stuffed with raisins finished in a rich creamy tomato & cashew based gravy.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.50</p>
+                            </td>
+                        </tr>
 
-                    <tr>
-                      <td>
-                        <p class="title">Kashmiri Methi Chaman</p>
-                        <p class="subtitle">Tender fenugreek leaves cooked in a medium spicy cury with grated paneer.</p>
-                      </td>
-                      <td><p class="title">$14.50</p></td>
-                    </tr>
-                  </table>
+                        <tr>
+                            <td>
+                                <p class="title">Kashmiri Methi Chaman</p>
+                                <p class="subtitle">Tender fenugreek leaves cooked in a medium spicy cury with grated paneer.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.50</p>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
 
                 <button type="button" class="mainMenuButton" id="d2" onmouseover="showTip('b2')" onmouseout="hideTip('b2')">Lentils & Vegetables</button>
                 <div class="tooltip" id="b2tooltip">
-                  <table class="innerTable">
-                    <tr>
-                      <td>
-                        <p class="title">Tava Dhingri</p>
-                        <p class="subtitle">Fresh mushroom and sweet corn cooked in red gravy with more of chilly pepper and coriander</p>
-                      </td>
-                      <td><p class="title">$14.00</p></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="title">Kumbh Hara Dhaniya</p>
-                        <p class="subtitle">A fresh mushroom curry with flavor of coriander</p>
-                      </td>
-                      <td><p class="title">$14.00</p></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="title">Kadhai Chole</p>
-                        <p class="subtitle">Boiled chick peas tossed with diced onions, tomatoes & capsicum & cooked with special spice & served on a sizzler plate</p>
-                      </td>
-                      <td><p class="title">$14.00</p></td>
-                    </tr>
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Tava Dhingri</p>
+                                <p class="subtitle">Fresh mushroom and sweet corn cooked in red gravy with more of chilly pepper and coriander</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Kumbh Hara Dhaniya</p>
+                                <p class="subtitle">A fresh mushroom curry with flavor of coriander</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Kadhai Chole</p>
+                                <p class="subtitle">Boiled chick peas tossed with diced onions, tomatoes & capsicum & cooked with special spice & served on a sizzler plate</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.00</p>
+                            </td>
+                        </tr>
 
-                    <td>
-                      <p class="title">Aloo-Gobhi</p>
-                      <p class="subtitle">Flowerets of cauliflower & diced potatoes cooked with onions,tomato & ginger juliennes. </p>
-                    </td>
-                    <td><p class="title">$14.00</p></td>
-                  </tr>
-                </table>
+                        <td>
+                            <p class="title">Aloo-Gobhi</p>
+                            <p class="subtitle">Flowerets of cauliflower & diced potatoes cooked with onions,tomato & ginger juliennes. </p>
+                        </td>
+                        <td>
+                            <p class="title">$14.00</p>
+                        </td>
+                        </tr>
+                    </table>
                 </div>
 
 
                 <button type="button" class="mainMenuButton" id="d3" onmouseover="showTip('b3')" onmouseout="hideTip('b3')">Lentils & Vegetables</button>
                 <div class="tooltip" id="b3tooltip">
-                  <table class="innerTable">
-                    <tr>
-                      <td>
-                        <p class="title">Aloo-Palak</p>
-                        <p class="subtitle">Cubed potato cooked with spinach & flavoured with fenugreeks.</p>
-                      </td>
-                      <td><p class="title">$14.00</p></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="title">Brinjal Mash</p>
-                        <p class="subtitle">Tandoori roasted eggplant made with fresh onion, tomato and spices.</p>
-                      </td>
-                      <td><p class="title">$14.00</p></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="title">Vegetable Jhalfrezi</p>
-                        <p class="subtitle">Indian style vegetable stir-fry,served on a sizzler plate.</p>
-                      </td>
-                      <td><p class="title">$14.00</p></td>
-                    </tr>
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Aloo-Palak</p>
+                                <p class="subtitle">Cubed potato cooked with spinach & flavoured with fenugreeks.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Brinjal Mash</p>
+                                <p class="subtitle">Tandoori roasted eggplant made with fresh onion, tomato and spices.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Vegetable Jhalfrezi</p>
+                                <p class="subtitle">Indian style vegetable stir-fry,served on a sizzler plate.</p>
+                            </td>
+                            <td>
+                                <p class="title">$14.00</p>
+                            </td>
+                        </tr>
 
-                    <td>
-                      <p class="title">Vegetable Makhanwalla</p>
-                      <p class="subtitle">A mixed vegetable cooked in tomato base sweet curry.</p>
-                    </td>
-                    <td><p class="title">$14.00</p></td>
-                  </tr>
-
-
-                  <td>
-                    <p class="title">Dal Makhani</p>
-                    <p class="subtitle">A traditional Punjabi black dal preparation.</p>
-                  </td>
-                  <td><p class="title">$14.00</p></td>
-                </tr>
-
-                <td>
-                  <p class="title">Dal Tadka</p>
-                  <p class="subtitle">A moong dal delightful preparation with seasoning of garlic & dry red chilly & mudstards seeds.</p>
-                </td>
-                <td><p class="title">$14.00</p></td>
-              </tr>
-
-              <td>
-                <p class="title">Dal Panchratan</p>
-                <p class="subtitle">An ancient favourite dish uniquely blended with 'Five' different lentils.</p>
-              </td>
-              <td><p class="title">$14.00</p></td>
-            </tr>
+                        <td>
+                            <p class="title">Vegetable Makhanwalla</p>
+                            <p class="subtitle">A mixed vegetable cooked in tomato base sweet curry.</p>
+                        </td>
+                        <td>
+                            <p class="title">$14.00</p>
+                        </td>
+                        </tr>
 
 
-                </table>
+                        <td>
+                            <p class="title">Dal Makhani</p>
+                            <p class="subtitle">A traditional Punjabi black dal preparation.</p>
+                        </td>
+                        <td>
+                            <p class="title">$14.00</p>
+                        </td>
+                        </tr>
+
+                        <td>
+                            <p class="title">Dal Tadka</p>
+                            <p class="subtitle">A moong dal delightful preparation with seasoning of garlic & dry red chilly & mudstards seeds.</p>
+                        </td>
+                        <td>
+                            <p class="title">$14.00</p>
+                        </td>
+                        </tr>
+
+                        <td>
+                            <p class="title">Dal Panchratan</p>
+                            <p class="subtitle">An ancient favourite dish uniquely blended with 'Five' different lentils.</p>
+                        </td>
+                        <td>
+                            <p class="title">$14.00</p>
+                        </td>
+                        </tr>
+
+
+                    </table>
                 </div>
 
 
                 <button type="button" class="mainMenuButton" id="d4" onmouseover="showTip('b4')" onmouseout="hideTip('b4')">Lamb(Saalan)</button>
                 <div class="tooltip" id="b4tooltip">
-                  <table class="innerTable">
-                    <tr>
-                      <td>
-                        <p class="title">Bhuna Ghost</p>
-                        <p class="subtitle">Tender boneless lamb cooked & tossed with julliens of onion in a thick spicy style.</p>
-                      </td>
-                      <td><p class="title">$16.50</p></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="title">Ghost Hara Masala</p>
-                        <p class="subtitle">Boneless piece of lamb cooked to perfection with spinach & fenugreek leaves.</p>
-                      </td>
-                      <td><p class="title">$16.50</p></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="title">Kadhai Ghost</p>
-                        <p class="subtitle">Diced lamb tossed with onions,capsicum & touch of coriander,garlic & served on a sizzler plate.</p>
-                      </td>
-                      <td><p class="title">$16.50</p></td>
-                    </tr>
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Bhuna Ghost</p>
+                                <p class="subtitle">Tender boneless lamb cooked & tossed with julliens of onion in a thick spicy style.</p>
+                            </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Ghost Hara Masala</p>
+                                <p class="subtitle">Boneless piece of lamb cooked to perfection with spinach & fenugreek leaves.</p>
+                            </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Kadhai Ghost</p>
+                                <p class="subtitle">Diced lamb tossed with onions,capsicum & touch of coriander,garlic & served on a sizzler plate.</p>
+                            </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
 
-                    <td>
-                      <p class="title">Malabar Lamb Curry</p>
-                      <p class="subtitle">Diced lamb cooked in a medium spocy curry.</p>
-                    </td>
-                    <td><p class="title">$16.50</p></td>
-                  </tr>
+                        <td>
+                            <p class="title">Malabar Lamb Curry</p>
+                            <p class="subtitle">Diced lamb cooked in a medium spocy curry.</p>
+                        </td>
+                        <td>
+                            <p class="title">$16.50</p>
+                        </td>
+                        </tr>
 
-                  <td>
-                    <p class="title">Ghost Zafrani Korma</p>
-                    <p class="subtitle">Tender morsels of lamb cooked in mildly spiced cashew gravy & flavoured with saffron .</p>
-                  </td>
-                  <td><p class="title">$16.50</p></td>
-                </tr>
+                        <td>
+                            <p class="title">Ghost Zafrani Korma</p>
+                            <p class="subtitle">Tender morsels of lamb cooked in mildly spiced cashew gravy & flavoured with saffron .</p>
+                        </td>
+                        <td>
+                            <p class="title">$16.50</p>
+                        </td>
+                        </tr>
 
 
-                </table>
+                    </table>
                 </div>
 
 
 
-                
-                <button type="button" class="mainMenuButton" id="d5">Goat/Mutton(Saalan)</button>
-                <button type="button" class="mainMenuButton" id="d6">Beef(Saalan)</button>
-                <button type="button" class="mainMenuButton" id="d7">SeaFood(Samundar Ki Gehrai Se)</button>
-                <button type="button" class="mainMenuButton" id="d8">Rice(Basmati ki Khusboo)</button>
-                <button type="button" class="mainMenuButton" id="d9">Indian Bread(Gehu Ki Karamat)</button>
-                <button type="button" class="mainMenuButton" id="d10">Accompaniments(Saath-Saath)</button>
+                <button type="button" class="mainMenuButton" id="d5" onmouseover="showTip('b5')" onmouseout="hideTip('b5')">Goat/Mutton(Saalan)</button>
+                <div class="tooltip" id="b5tooltip">
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Goat Curry</p>
+                                <p class="subtitle">Slow cooked diced goat with bone,ginger,garlic in a caramelised onion,tomato masala and assorted spices.</p>
+                            </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Tawa Goat</p>
+                                <p class="subtitle">Marinated goat with bones cooked with onions,tumeric and rich spices served on sizzler.</p>
+                            </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Dal Goat Curry</p>
+                                <p class="subtitle">Mutton dish cooked with lentils and masala.</p>
+                            </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
+
+
+
+                    </table>
+                </div>
+
+
+                <button type="button" class="mainMenuButton" id="d6" onmouseover="showTip('b6')" onmouseout="hideTip('b6')">Beef(Saalan)</button>
+                <div class="tooltip" id="b6tooltip">
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Beef Curry</p>
+                                <p class="subtitle">A superb medium spiced dish of diced beef that is flavoured with desicated cocunut & curry leaves.</p>
+                            </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Beef Hara Masala</p>
+                                <p class="subtitle">Diced beef cooked to perfection in a spinach-based gravy & flavoured with fenugreek leaves.</p>
+                            </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Beef Korma</p>
+                                <p class="subtitle">Morsels of beef cooked in mildly spiced cashew gravy & flavored with saffron & mace.</p>
+                            </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
+
+                        <td>
+                            <p class="title">Bhuna Beef(Kolkata)</p>
+                            <p class="subtitle">Beef cooked and tossed with julienne of onion in a thick spicy style.</p>
+                        </td>
+                        <td>
+                            <p class="title">$16.50</p>
+                        </td>
+                    </tr>
+
+
+
+
+                    </table>
+                </div>
+
+
+
+                <button type="button" class="mainMenuButton" id="d7" onmouseover="showTip('b7')" onmouseout="hideTip('b7')">SeaFood(Samundar Ki Gehrai Se)</button>
+                <div class="tooltip" id="b7tooltip">
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Fish Goan Curry</p>
+                                <p class="subtitle">Goan fish preparation which will smooth your pallet.</p>
+                            </td>
+                            <td>
+                                <p class="title">$19.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Zinga Masala</p>
+                                <p class="subtitle">Prawns cooked in a medium spicy curry.</p>
+                            </td>
+                            <td>
+                                <p class="title">$19.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Fish Masala</p>
+                                <p class="subtitle">Boneless pieces of fish cooked in a thick sauce of crushed tomatoes,herbs & spices.</p>
+                            </td>
+                            <td>
+                                <p class="title">$19.00</p>
+                            </td>
+                        </tr>
+
+                        <td>
+                            <p class="title">Goan Prawn Curry</p>
+                            <p class="subtitle">Prawns cooked in cocunut milk,tomatoes with mustard seeds,curry leaves.</p>
+                        </td>
+                        <td>
+                            <p class="title">$19.00</p>
+                        </td>
+                    </tr>
+
+
+                    <td>
+                        <p class="title">Khadhai Prawns</p>
+                        <p class="subtitle">Coriander,fenugreek flavoured prawns dish,tossedf with diced onions,capsicums & tomatoes on a sizzler platter.</p>
+                    </td>
+                    <td>
+                        <p class="title">$19.00</p>
+                    </td>
+                </tr>
+
+
+
+                    </table>
+                </div>
+
+
+
+
+                <button type="button" class="mainMenuButton" id="d8" onmouseover="showTip('b8')" onmouseout="hideTip('b8')">Rice(Basmati ki Khusboo)</button>
+                <div class="tooltip" id="b8tooltip">
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Plain Basmati Rice</p>
+                                <p class="subtitle">Steamed plain rice.</p>
+                            </td>
+                            <td>
+                                <p class="title">$3.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Safron Rice(Zafrani Pulao)</p>
+                                <p class="subtitle">Steamed basmati rice with saffron in milk & garnished with roasted cumin.</p>
+                            </td>
+                            <td>
+                                <p class="title">$3.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Cocunut Rice(Thengai Sadham)</p>
+                                <p class="subtitle">Steamed rice mixed with fried grated cocunut & curry leaves,mustard seeds.</p>
+                            </td>
+                            <td>
+                                <p class="title">$3.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Hyderabad Biryani</p>
+                                <p class="subtitle">From the Royal kitchen of Hyderabadi Nawabs,comes aromatic basmati rice cokked with mint & spices.</p>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Vegetable Biryani</p>
+
+                              </td>
+                            <td>
+                                <p class="title">$14.50</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p class="title">Chicken/Lamb/Goat/Beef Biryani</p>
+
+                              </td>
+                            <td>
+                                <p class="title">$16.50</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p class="title">Prawn Biryani</p>
+
+                              </td>
+                            <td>
+                                <p class="title">$19.50</p>
+                            </td>
+                        </tr>
+
+
+
+                    </table>
+                </div>
+
+
+
+                <button type="button" class="mainMenuButton" id="d9" onmouseover="showTip('b9')" onmouseout="hideTip('b9')">Indian Bread(Gehu Ki Karamat)</button>
+                <div class="tooltip" id="b9tooltip">
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Naan</p>
+                                <p class="subtitle">Leavened bread made out.</p>
+                            </td>
+                            <td>
+                                <p class="title">$3.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Garlic Naan</p>
+                                <p class="subtitle">Indian garlic bread that is baked in Tandoor.</p>
+                            </td>
+                            <td>
+                                <p class="title">$3.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Peshawari Naan</p>
+                                <p class="subtitle">Leavened bread stuffed with dry fruits & nuts.</p>
+                            </td>
+                            <td>
+                                <p class="title">$4.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Keema Naan</p>
+                                <p class="subtitle">Leavened bread stuffed with meat & spices.</p>
+                            </td>
+                            <td>
+                                <p class="title">$4.50</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Tandoori Roti</p>
+                                <p class="subtitle">Unleavened wholemeal bread baked in clay oven.</p>
+                            </td>
+                            <td>
+                                <p class="title">$3.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Laccha Parantha</p>
+                                <p class="subtitle">Layered & flaky wholemeal bread</p>
+                            </td>
+                            <td>
+                                <p class="title">$4.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Pudina Parantha</p>
+                                <p class="subtitle">Flaky indian wholemeal bread with a tangy mint mixture.</p>
+                            </td>
+                            <td>
+                                <p class="title">$4.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Aloo Parantha</p>
+                                <p class="subtitle">Indian wholemeal bread stuffed with spiced potatoes.</p>
+                            </td>
+                            <td>
+                                <p class="title">$4.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Kulcha-Paneer & Masala</p>
+                                <p class="subtitle">Indian bread made out of plain flour with your choice.</p>
+                            </td>
+                            <td>
+                                <p class="title">$4.00</p>
+                            </td>
+                        </tr>
+
+
+
+                    </table>
+                </div>
+
+
+
+                <button type="button" class="mainMenuButton" id="d10" onmouseover="showTip('b10')" onmouseout="hideTip('b10')">Accompaniments(Saath-Saath)</button>
+                <div class="tooltip" id="b10tooltip">
+                    <table class="innerTable">
+                        <tr>
+                            <td>
+                                <p class="title">Mixed Raita</p>
+                                <p class="subtitle">Plain yoghurt mixed with cucumber & cumin.</p>
+                            </td>
+                            <td>
+                                <p class="title">$4.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Kachumber</p>
+                                <p class="subtitle">Indian salad comprising of onion,tomatoes,cucumber,lemon juice & spices.</p>
+                            </td>
+                            <td>
+                                <p class="title">$4.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Mixed Pickle</p>
+
+                            </td>
+                            <td>
+                                <p class="title">$2.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Mango Chutney/Mint Chutney/Tamarind Chutney</p>
+
+                            </td>
+                            <td>
+                                <p class="title">$2.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="title">Pappadams</p>
+
+                            </td>
+                            <td>
+                                <p class="title">$2.00</p>
+                            </td>
+                        </tr>
+
+
+
+
+                    </table>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <button type="button" class="mainMenuButton" id="d11">Desserts(Mithai)</button>
                 <button type="button" class="mainMenuButton" id="d12">Download Full Mains Menu</button>
 
@@ -692,14 +1023,14 @@
                                     <div class="right-text">
                                         <h2>Lunch Hours</h2>
                                         <hr>
-                                        <p>Monday to Friday:  12:00 PM - 2:30 PM</p>
+                                        <p>Monday to Friday: 12:00 PM - 2:30 PM</p>
 
                                         <hr>
 
-                                          <h2>Dinner Hours</h2>
-                                          <hr>
-                                          <p>Monday to Friday: 5:30 PM - 10:30 PM</p>
-                                          <p>Saturday & Sunday: 5:30 PM - 9:00 PM</p>
+                                        <h2>Dinner Hours</h2>
+                                        <hr>
+                                        <p>Monday to Friday: 5:30 PM - 10:30 PM</p>
+                                        <p>Saturday & Sunday: 5:30 PM - 9:00 PM</p>
 
                                     </div>
                                 </div>
