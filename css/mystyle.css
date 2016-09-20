@@ -115,3 +115,7 @@ p.subtitle {
 #main1{
   margin-top: 10%;
 }
+
+.col-md-4 h1{
+  font-family: cursive;
+}
