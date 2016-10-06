@@ -7,7 +7,7 @@
 
 <?php
 if(isset($_POST['submit'])){
-    $to = "gurmeetroks@gmail.com"; // this is your Email address
+    $to = "garnishofindia@gmail.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
@@ -25,12 +25,12 @@ if(isset($_POST['submit'])){
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Thank you " . $first_name . ", Your reservation has been completed";
+    echo "Thank you " . $first_name . ", Your reservation. We will get back to you soon";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     // You cannot use header and echo together. It's one or the other.
     }
 ?>
-<a href="index.html"><button>Home</button></a>
+<a href="home.html"><button>Home</button></a>
 </body>
 
 </html>
